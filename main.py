@@ -1,21 +1,21 @@
 # Lab TIFC1-PF-3-3---Lab-Build-a-Better-Calculator
 
-def addmultiplenumbers(nums):
+def addmultiplenumbers(nums): # Suma una lista de números
     total = 0
     for num in nums:
       total += num
     return total
 
-def multiplymultiplenumbers(nums):
+def multiplymultiplenumbers(nums): # Multiplica una lista de números
     total = 1
     for num in nums:
       total *= num
     return total
 
-def isiteven(num):
+def isiteven(num): # Define retornando un True o False si el número es par
    return num % 2 == 0
 
-def isitaninteger(num):
+def isitaninteger(num): # Define retornando True o False si el número es un entero(int)
    if type(num) == int:
       return True
    else:
