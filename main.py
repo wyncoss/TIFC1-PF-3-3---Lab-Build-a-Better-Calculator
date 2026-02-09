@@ -12,7 +12,7 @@ def multiplymultiplenumbers(nums): # Multiplica una lista de números
       total *= num
     return total
 
-def isiteven(num): # Define retornando un True o False si el número es par
+def isiteven(num): # Define retornando True o False si el número es par
    return num % 2 == 0
 
 def isitaninteger(num): # Define retornando True o False si el número es un entero(int)
